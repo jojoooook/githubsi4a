@@ -1,0 +1,31 @@
+/* Deklarasi */
+
+body {
+  /*Mengganti jenis font */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Gunakan selector h1, ganti warna text menjadi ungu */
+h1 {
+  color: purple;
+}
+
+h2 {
+  color: red;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+}
+
+/*Menggunakan Selector Class*/
+.table-info,
+th,
+td {
+  border-width: 2px;
+  border-color: pink;
+  border-style: dashed;
+  border-collapse: collapse;
+}
